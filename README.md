@@ -182,3 +182,57 @@ If you want to know the name of your host/network simply type hostname. Adding a
 Since Linux is a multi-user system, this means more than one person can interact with the same system at the same time. useradd is used to create a new user, while passwd is adding a password to that user’s account. To add a new person named John type, useradd John and then to add his password type, passwd 123456789.
 
 To remove a user is very similar to adding a new user. To delete the users account type, userdel UserName
+
+
+
+
+
+
+Plone deployment on Ubuntu:
+
+Step1:-Platform preparation
+---------------------------------
+sudo apt-get update
+sudo apt-get upgrade
+Install the platform’s build kit, nginx, and supervisor
+sudo apt-get install build-essential python-dev libjpeg-dev libxslt-dev supervisor nginx
+Step2:-Install Plone
+First Download plone unified installaer
+Latest version check on plone website
+https://launchpad.net/plone/+download
+wget --no-check-certificate https://launchpad.net/plone/5.2/5.2/+...
+
+tar -xf Plone-5.2.0-UnifiedInstaller-r2.tgz
+
+cd Plone-5.2.0-UnifiedInstaller-r2
+
+To install plone using below command
+Run script
+./install.sh
+
+sudo nano /usr/local/Plone/zeocluster/adminPassword.txt
+
+Step 3: Set Plone to start with the server
+We’re going to use supervisor to start Plone with the server. To do so, we’ll create a supervisor configuration file:
+sudo nano /etc/supervisor/conf.d/plone5.conf
+Specify that supervisor should start the database server and client1 automatically:
+[program:plone5server]
+user=plone_daemon
+directory=/usr/local/Plone/zeocluster
+command=/usr/local/Plone/zeocluster/bin/zeoserver fg
+
+[program:plone5client1]
+user=plone_daemon
+directory=/usr/local/Plone/zeocluster
+command=/usr/local/Plone/zeocluster/bin/client1 console
+stopwaitseconds=30
+ to add starup services
+sudo supervisorctl
+supervisor$ reread
+plone5client1: available
+plone5server: available
+supervisor$ add plone5server
+plone5server: added process group
+supervisor$ add plone5client1
+plone5client1: added process group
+supervisor$ status
