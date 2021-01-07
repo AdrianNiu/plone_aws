@@ -20,6 +20,10 @@ $ nvm install --lts
 $ make start
 ```
 
+manually set the PORT environment variable. A command like this will work (my preferred option).
+
+PORT=3000 CLIENT_PUBLIC_PATH=http://$C9_HOSTNAME:3001/ RAZZLE_API_PATH=http://$C9_HOSTNAME:3000/api yarn start 
+
 LINUX command:
 
 1. pwd command
