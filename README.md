@@ -24,6 +24,8 @@ manually set the PORT environment variable. A command like this will work (my pr
 
 PORT=3000 CLIENT_PUBLIC_PATH=http://$C9_HOSTNAME:3001/ RAZZLE_API_PATH=http://$C9_HOSTNAME:3000/api yarn start 
 
+Amazon ECS: Used to deploy an Amazon ECS containerized application as a task set. 
+
 LINUX command:
 
 1. pwd command
