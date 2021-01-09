@@ -210,35 +210,4 @@ wget --no-check-certificate https://launchpad.net/plone/5.2/5.2/+...
 
 tar -xf Plone-5.2.0-UnifiedInstaller-r2.tgz
 
-cd Plone-5.2.0-UnifiedInstaller-r2
 
-To install plone using below command
-Run script
-./install.sh
-
-sudo nano /usr/local/Plone/zeocluster/adminPassword.txt
-
-Step 3: Set Plone to start with the server
-We’re going to use supervisor to start Plone with the server. To do so, we’ll create a supervisor configuration file:
-sudo nano /etc/supervisor/conf.d/plone5.conf
-Specify that supervisor should start the database server and client1 automatically:
-[program:plone5server]
-user=plone_daemon
-directory=/usr/local/Plone/zeocluster
-command=/usr/local/Plone/zeocluster/bin/zeoserver fg
-
-[program:plone5client1]
-user=plone_daemon
-directory=/usr/local/Plone/zeocluster
-command=/usr/local/Plone/zeocluster/bin/client1 console
-stopwaitseconds=30
- to add starup services
-sudo supervisorctl
-supervisor$ reread
-plone5client1: available
-plone5server: available
-supervisor$ add plone5server
-plone5server: added process group
-supervisor$ add plone5client1
-plone5client1: added process group
-supervisor$ status
