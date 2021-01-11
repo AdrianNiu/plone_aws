@@ -26,7 +26,7 @@ PORT=3000 CLIENT_PUBLIC_PATH=http://$C9_HOSTNAME:3001/ RAZZLE_API_PATH=http://$C
 
 Amazon ECS: Used to deploy an Amazon ECS containerized application as a task set. 
 
-EFS Blobstorage will work with Blobstorage backup with lifecycle rule. 
+EFS Blobstorage will work with Blobstorage backup with lifecycle rule. AWS VS Azure in storage comparison. 
 
 LINUX command:
 
