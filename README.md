@@ -28,6 +28,10 @@ Amazon ECS: Used to deploy an Amazon ECS containerized application as a task set
 
 EFS Blobstorage will work with Blobstorage backup with lifecycle rule. AWS VS Azure in storage comparison. 
 
+
+###Under dockerfile to use docker-compose up to run on port 8080.
+
+
 LINUX command:
 
 1. pwd command
