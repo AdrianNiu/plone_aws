@@ -31,6 +31,8 @@ EFS Blobstorage will work with Blobstorage backup with lifecycle rule. AWS VS Az
 
 ###Under dockerfile to use docker-compose up to run on port 8080.
 
+### Correct command for docker run: docker run --rm cloudplone/cms:dev cat /opt/plone/inituser
+
 
 LINUX command:
 
