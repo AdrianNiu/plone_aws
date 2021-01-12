@@ -1,2 +1,5 @@
 collective.easyform
 plone.app.mosaic
+
+
+//update requirement to install required add-ons
