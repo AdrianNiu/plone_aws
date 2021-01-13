@@ -33,6 +33,7 @@ EFS Blobstorage will work with Blobstorage backup with lifecycle rule. AWS VS Az
 
 ### Correct command for docker run: docker run --rm cloudplone/cms:dev cat /opt/plone/inituser
 
+Be careful of dependency requirement for each plane Colton add ons. 
 
 LINUX command:
 
