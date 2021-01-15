@@ -36,6 +36,8 @@ A basic app or a simple static website will suit for Fargate deployment.
 
 Be careful of dependency requirement for each plane Colton add ons. 
 
+Amazon EKS integrates Kubernetes with AWS Fargate by using controllers that are built by AWS using the upstream, extensible model provided by Kubernetes.
+
 LINUX command:
 
 1. pwd command
