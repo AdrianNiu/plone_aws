@@ -38,7 +38,7 @@ Be careful of dependency requirement for each plane Colton add ons.
 
 Amazon EKS integrates Kubernetes with AWS Fargate by using controllers that are built by AWS using the upstream, extensible model provided by Kubernetes.
 
-Fargate deployment.
+Kubernetes, written in Go, is inherently multi-arch, providing its control plane components throughout for a number of architectures. In Kubernetes, and by extension in Amazon EKS, the worker node-local supervisor called kubelet instructs the container runtime via a standardized interface to pull container images from a registry such as Amazon ECR and launch them, accordingly. All of which is multi-arch enabled and automated.
 
 LINUX command:
 
