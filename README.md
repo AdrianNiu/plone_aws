@@ -20,7 +20,7 @@ $ nvm install --lts
 $ make start
 ```
 
-AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it easy to run and manage Docker containers at scale.
+AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it easy to run and manage Docker containers at scale. AWS Batch provides with a managed batch queue, complete with the ability to specify priority, dependencies, and retries. 
 
 manually set the PORT environment variable. A command like this will work (my preferred option).
 
