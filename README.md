@@ -42,6 +42,8 @@ A basic app or a simple static website will suit for Fargate deployment.
 
 ###Under dockerfile to use docker-compose up to run on port 8080.
 
+AWS Fargate platform versions are used to refer to a specific runtime environment for Fargate task infrastructure. It is a combination of the kernel and container runtime versions.
+
 ### Correct command for docker run: docker run --rm cloudplone/cms:dev cat /opt/plone/inituser
 
 Be careful of dependency requirement for each plane Colton add ons. 
