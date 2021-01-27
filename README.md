@@ -80,6 +80,8 @@ systemControls
 
 A port is an endpoint of communication in an operating system that identifies a specific process or a type of service. Bitnami stacks include several services or servers that require a port.
 
+AWS Ubuntu node version ignore node: adding --ignore-engines
+
 LINUX command:
 
 1. pwd command
