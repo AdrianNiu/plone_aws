@@ -24,6 +24,8 @@ $ nvm install --lts
 $ make start
 ```
 
+RIP Robin Williams（https://zhuanlan.zhihu.com/RIP Robin Williams）
+
 wget --no-check-certificate https://launchpad.net/plone/5.0/5.0.4/+download/Plone-5.0.4-UnifiedInstaller.tgz
 
 An Amazon ECS cluster is a logical grouping of tasks or services. We can register one or more Amazon EC2 instances (also referred to as container instances) with our cluster to run tasks on them. 
