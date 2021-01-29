@@ -84,6 +84,8 @@ A port is an endpoint of communication in an operating system that identifies a 
 
 AWS Ubuntu node version ignore node: adding --ignore-engines
 
+Plone strength: standards conformance, access control, internationalization, aggregation, user-generated content, micro-applications, active user groups and value
+
 LINUX command:
 
 1. pwd command
