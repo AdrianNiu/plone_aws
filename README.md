@@ -24,6 +24,8 @@ $ nvm install --lts
 $ make start
 ```
 
+JS library for ML: Brain.js; Synaptic; Neataptic
+
 RIP Robin Williams（https://zhuanlan.zhihu.com/RIP Robin Williams）
 
 wget --no-check-certificate https://launchpad.net/plone/5.0/5.0.4/+download/Plone-5.0.4-UnifiedInstaller.tgz
