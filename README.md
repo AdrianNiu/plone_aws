@@ -88,6 +88,10 @@ AWS Ubuntu node version ignore node: adding --ignore-engines
 
 Plone strength: standards conformance, access control, internationalization, aggregation, user-generated content, micro-applications, active user groups and value
 
+NLU takes up the understanding of the data based on grammar, the context in which it was said, and decide on intent and entities.
+NLP converts a text into structured data.
+NLG generates text based on structured data.
+
 LINUX command:
 
 1. pwd command
