@@ -48,6 +48,8 @@ A basic app or a simple static website will suit for Fargate deployment.
 
 AWS Fargate platform versions are used to refer to a specific runtime environment for Fargate task infrastructure. It is a combination of the kernel and container runtime versions.
 
+To install the AWS CLI on your Ubuntu-based Lightsail instance, connect to your instance, and type sudo apt-get -y install awscli.
+
 ### Correct command for docker run: docker run --rm cloudplone/cms:dev cat /opt/plone/inituser
 
 Be careful of dependency requirement for each plane Colton add ons. 
