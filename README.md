@@ -1,9 +1,5 @@
 # Running Plone on AWS
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-Attribution-ShareAlike 4.0 International License</a>.
-
 AWS fargate, a serverless compute engine for containers that works with both ECS and EKS. 
 
 Plone runs on the top of the Zope 2 application server, meaning that one Zope 2 server process can contain and host several Plone sites. Plone also uses Zope 3 components. Zope 3 is not an upgrade for Zope 2, but a separate project.
