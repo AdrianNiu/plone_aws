@@ -20,6 +20,8 @@ $ nvm install --lts
 $ make start
 ```
 
+Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) service that uses machine learning to extract health data from medical text–no machine learning experience is required.
+
 JS library for ML: Brain.js; Synaptic; Neataptic
 
 sheet query: =QUERY(countries,"SELECT B, D WHERE D > 100000000",1)
