@@ -22,6 +22,9 @@ $ make start
 
 Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) service that uses machine learning to extract health data from medical text–no machine learning experience is required.
 
+Amazon Comprehend can discover the meaning and relationships in text from customer support incidents, product reviews, social media feeds, news articles, documents, and other sources.
+
+
 JS library for ML: Brain.js; Synaptic; Neataptic
 
 sheet query: =QUERY(countries,"SELECT B, D WHERE D > 100000000",1)
