@@ -20,6 +20,8 @@ $ nvm install --lts
 $ make start
 ```
 
+The Lambda function analyses the input transcript field of the Amazon Lex event. Based on the overall sentiment value, it generates a response message with next step instructions.
+
 Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) service that uses machine learning to extract health data from medical text–no machine learning experience is required.
 
 Amazon Comprehend can discover the meaning and relationships in text from customer support incidents, product reviews, social media feeds, news articles, documents, and other sources.
