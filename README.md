@@ -2,8 +2,6 @@
 
 AWS fargate, a serverless compute engine for containers that works with both ECS and EKS. 
 
-Plone runs on the top of the Zope 2 application server, meaning that one Zope 2 server process can contain and host several Plone sites. Plone also uses Zope 3 components. Zope 3 is not an upgrade for Zope 2, but a separate project.
-
 ## Build this Presentation
 
 ### Build dependencies
