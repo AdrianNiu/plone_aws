@@ -26,6 +26,7 @@ Amazon Comprehend Medical is a HIPAA-eligible natural language processing (NLP) 
 
 Amazon Comprehend can discover the meaning and relationships in text from customer support incidents, product reviews, social media feeds, news articles, documents, and other sources.
 
+brat is an online environment for collaborative text annotation that can be run on a (possibly local) server and then used in a browser. But Annotating significantly longer text spans (i.e. paragraphs) turns out to be really inconvenient.
 
 JS library for ML: Brain.js; Synaptic; Neataptic
 
