@@ -36,6 +36,9 @@ RIP Robin Williams（https://zhuanlan.zhihu.com/RIP Robin Williams）
 
 wget --no-check-certificate https://launchpad.net/plone/5.0/5.0.4/+download/Plone-5.0.4-UnifiedInstaller.tgz
 
+Create the JSONL file for Prodigy
+Prodigy requires a jsonl file as input data, with a json dictionary per line
+
 An Amazon ECS cluster is a logical grouping of tasks or services. We can register one or more Amazon EC2 instances (also referred to as container instances) with our cluster to run tasks on them. 
 
 AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it easy to run and manage Docker containers at scale. AWS Batch provides with a managed batch queue, complete with the ability to specify priority, dependencies, and retries. 
