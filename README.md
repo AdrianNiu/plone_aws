@@ -45,6 +45,10 @@ blank:en
 ./news_headlines.jsonl
 --label PERSON,ORG,PRODUCT,LOCATION
 
+Training using Prodigy.
+
+bash-3.2$ prodigy dataset spooky ✨ Successfully added ‘spooky’ to database SQLite.
+
 
 The brat standalone server only is available in brat v1.3 and above.
 The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
