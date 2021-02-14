@@ -38,6 +38,13 @@ wget --no-check-certificate https://launchpad.net/plone/5.0/5.0.4/+download/Plon
 
 Create the JSONL file for Prodigy
 Prodigy requires a jsonl file as input data, with a json dictionary per line
+prodigy
+ner.manual
+ner_news_headlines
+blank:en
+./news_headlines.jsonl
+--label PERSON,ORG,PRODUCT,LOCATION
+
 
 The brat standalone server only is available in brat v1.3 and above.
 The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
