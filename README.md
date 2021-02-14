@@ -49,6 +49,10 @@ Training using Prodigy.
 
 bash-3.2$ prodigy dataset spooky ✨ Successfully added ‘spooky’ to database SQLite.
 
+Prodigy requires a jsonl file as input data, with a json dictionary per line.
+These json data must have the following parameters as minimal:
+{“text”:”text of the sentence”,”label”:”category of the sentence”,”answer”:”’reject’ or ‘accept’”}
+
 
 The brat standalone server only is available in brat v1.3 and above.
 The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
