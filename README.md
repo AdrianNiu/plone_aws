@@ -58,6 +58,9 @@ spaCy model	One of the available model packages for spaCy. Models can be install
 The brat standalone server only is available in brat v1.3 and above.
 The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
 
+Under annotation catagory: text span annotations, such as those marked with the Organization and Person types in the example
+relation annotations, such as the Family relation in the example
+
 An Amazon ECS cluster is a logical grouping of tasks or services. We can register one or more Amazon EC2 instances (also referred to as container instances) with our cluster to run tasks on them. 
 
 AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it easy to run and manage Docker containers at scale. AWS Batch provides with a managed batch queue, complete with the ability to specify priority, dependencies, and retries. 
