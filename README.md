@@ -55,6 +55,8 @@ These json data must have the following parameters as minimal:
 
 spaCy model	One of the available model packages for spaCy. Models can be installed as Python packages and are available in different sizes and for different languages. They can be used as the basis for training your own model with Prodigy.
 
+spaCy is to build information extraction or natural language understanding systems, or to pre-process text for deep learning.
+
 The brat standalone server only is available in brat v1.3 and above.
 The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
 
