@@ -62,6 +62,8 @@ Prodigy recipe is a Python function that can be run via the command line.
 The brat standalone server only is available in brat v1.3 and above.
 The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
 
+brat is not compatible with Python 3. Thus you might have to modify the command python standalone.py to python2 standalone.py.
+
 Under annotation catagory: text span annotations, such as those marked with the Organization and Person types in the example
 relation annotations, such as the Family relation in the example
 
