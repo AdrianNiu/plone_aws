@@ -30,6 +30,8 @@ brat is an online environment for collaborative text annotation that can be run 
 
 JS library for ML: Brain.js; Synaptic; Neataptic
 
+text classification is a broad category, various annotation types like product categorization or sentiment annotation are technically just specialized forms of text classification.
+
 sheet query: =QUERY(countries,"SELECT B, D WHERE D > 100000000",1)
 
 The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic and statistical natural language processing for English written in the Python programming language. 
