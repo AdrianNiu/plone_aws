@@ -71,6 +71,9 @@ brat is not compatible with Python 3. Thus you might have to modify the command 
 Under annotation catagory: text span annotations, such as those marked with the Organization and Person types in the example
 relation annotations, such as the Family relation in the example
 
+• Feature: the string representing the input text
+• Target: the text’s polarity (0 or 1)
+
 An Amazon ECS cluster is a logical grouping of tasks or services. We can register one or more Amazon EC2 instances (also referred to as container instances) with our cluster to run tasks on them. 
 
 AWS Fargate, Amazon ECS, Amazon EKS, and AWS Batch make it easy to run and manage Docker containers at scale. AWS Batch provides with a managed batch queue, complete with the ability to specify priority, dependencies, and retries. 
