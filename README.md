@@ -88,6 +88,8 @@ Amazon ECS: Used to deploy an Amazon ECS containerized application as a task set
 
 EFS Blobstorage will work with Blobstorage backup with lifecycle rule. AWS VS Azure in storage comparison. 
 
+Extend the Lambda function to identify “hot” topics in the user input even if the sentiment is not negative and take action proactively. 
+
 A basic app or a simple static website will suit for Fargate deployment.
 
 ###Under dockerfile to use docker-compose up to run on port 8080.
