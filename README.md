@@ -49,30 +49,6 @@ blank:en
 ./news_headlines.jsonl
 --label PERSON,ORG,PRODUCT,LOCATION
 
-Training using Prodigy.
-
-bash-3.2$ prodigy dataset spooky ✨ Successfully added ‘spooky’ to database SQLite.
-
-Prodigy requires a jsonl file as input data, with a json dictionary per line.
-These json data must have the following parameters as minimal:
-{“text”:”text of the sentence”,”label”:”category of the sentence”,”answer”:”’reject’ or ‘accept’”}
-
-spaCy model	One of the available model packages for spaCy. Models can be installed as Python packages and are available in different sizes and for different languages. They can be used as the basis for training your own model with Prodigy.
-
-spaCy is to build information extraction or natural language understanding systems, or to pre-process text for deep learning.
-
-Prodigy recipe is a Python function that can be run via the command line. 
-
-The brat standalone server only is available in brat v1.3 and above.
-The standalone server is experimental and should not be used for sensitive data or systems accessible from the internet.
-
-brat is not compatible with Python 3. Thus you might have to modify the command python standalone.py to python2 standalone.py.
-
-Under annotation catagory: text span annotations, such as those marked with the Organization and Person types in the example
-relation annotations, such as the Family relation in the example
-
-• Feature: the string representing the input text
-• Target: the text’s polarity (0 or 1)
 
 Bidirectional Encoder Representations from Transformers is a Transformer-based machine learning technique for natural language processing pre-training developed by Google.
 
